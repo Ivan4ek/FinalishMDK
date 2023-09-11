@@ -17,7 +17,7 @@ namespace FinalishMDK
             InitializeComponent();
             this.button1.Click += new System.EventHandler(this.button1_Click);
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            //this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.button3_Click);
         }
         
                 private void button1_Click(object sender, EventArgs e)
@@ -70,7 +70,7 @@ namespace FinalishMDK
                    }
                }
 
-        /*        private void button3_Click(object sender, EventArgs e)
+                private void button3_Click(object sender, EventArgs e)
                 {
                     // Полный путь к изображению с расширением файла (например, .jpg, .png)
                     string imagePath = @"C:\GitProjectMDK\MDKApp3\MDKApp3\bin\Debug\img3.jpg";
@@ -94,6 +94,6 @@ namespace FinalishMDK
                         MessageBox.Show($"Ошибка загрузки изображения: {ex.Message}");
                     }
                 }
-*/
+
     }
 }
