@@ -1,0 +1,11 @@
+C:\GitProjectMDK\FinalishMDK\FinalishMDK\bin\Debug\FinalishMDK.exe.config
+C:\GitProjectMDK\FinalishMDK\FinalishMDK\bin\Debug\FinalishMDK.exe
+C:\GitProjectMDK\FinalishMDK\FinalishMDK\bin\Debug\FinalishMDK.pdb
+C:\GitProjectMDK\FinalishMDK\FinalishMDK\obj\Debug\FinalishMDK.csproj.AssemblyReference.cache
+C:\GitProjectMDK\FinalishMDK\FinalishMDK\obj\Debug\FinalishMDK.csproj.SuggestedBindingRedirects.cache
+C:\GitProjectMDK\FinalishMDK\FinalishMDK\obj\Debug\FinalishMDK.Form1.resources
+C:\GitProjectMDK\FinalishMDK\FinalishMDK\obj\Debug\FinalishMDK.Properties.Resources.resources
+C:\GitProjectMDK\FinalishMDK\FinalishMDK\obj\Debug\FinalishMDK.csproj.GenerateResource.cache
+C:\GitProjectMDK\FinalishMDK\FinalishMDK\obj\Debug\FinalishMDK.csproj.CoreCompileInputs.cache
+C:\GitProjectMDK\FinalishMDK\FinalishMDK\obj\Debug\FinalishMDK.exe
+C:\GitProjectMDK\FinalishMDK\FinalishMDK\obj\Debug\FinalishMDK.pdb

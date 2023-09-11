@@ -15,11 +15,10 @@ namespace FinalishMDK
         public Form1()
         {
             InitializeComponent();
-            //this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // this.button1.Click += new System.EventHandler(this.button2_Click);
             //this.button1.Click += new System.EventHandler(this.button3_Click);
         }
-        /*
         
                 private void button1_Click(object sender, EventArgs e)
                 {
@@ -45,56 +44,56 @@ namespace FinalishMDK
                         MessageBox.Show($"Ошибка загрузки изображения: {ex.Message}");
                     }
                 }
-        
-                private void button2_Click(object sender, EventArgs e)
-                {
-                    // Полный путь к изображению с расширением файла (например, .jpg, .png)
-                    string imagePath = @"C:\GitProjectMDK\MDKApp3\MDKApp3\bin\Debug\img2.jpg";
 
-                    try
-                    {
-                        // Освобождаем ресурсы, связанные с предыдущим изображением (если оно было загружено)
-                        if (pictureBox1.Image != null)
-                        {
-                            pictureBox1.Image.Dispose();
-                        }
+        /*       private void button2_Click(object sender, EventArgs e)
+               {
+                   // Полный путь к изображению с расширением файла (например, .jpg, .png)
+                   string imagePath = @"C:\GitProjectMDK\MDKApp3\MDKApp3\bin\Debug\img2.jpg";
 
-                        // Устанавливаем режим отображения изображения в PictureBox на Zoom
-                        pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+                   try
+                   {
+                       // Освобождаем ресурсы, связанные с предыдущим изображением (если оно было загружено)
+                       if (pictureBox1.Image != null)
+                       {
+                           pictureBox1.Image.Dispose();
+                       }
 
-                        // Отобразить изображение в PictureBox
-                        pictureBox1.Image = new Bitmap(imagePath);
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show($"Ошибка загрузки изображения: {ex.Message}");
-                    }
-                }
+                       // Устанавливаем режим отображения изображения в PictureBox на Zoom
+                       pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
 
-                        private void button3_Click(object sender, EventArgs e)
-                        {
-                            // Полный путь к изображению с расширением файла (например, .jpg, .png)
-                            string imagePath = @"C:\GitProjectMDK\MDKApp3\MDKApp3\bin\Debug\img3.jpg";
+                       // Отобразить изображение в PictureBox
+                       pictureBox1.Image = new Bitmap(imagePath);
+                   }
+                   catch (Exception ex)
+                   {
+                       MessageBox.Show($"Ошибка загрузки изображения: {ex.Message}");
+                   }
+               }
 
-                            try
-                            {
-                                // Освобождаем ресурсы, связанные с предыдущим изображением (если оно было загружено)
-                                if (pictureBox1.Image != null)
-                                {
-                                    pictureBox1.Image.Dispose();
-                                }
+                       private void button3_Click(object sender, EventArgs e)
+                       {
+                           // Полный путь к изображению с расширением файла (например, .jpg, .png)
+                           string imagePath = @"C:\GitProjectMDK\MDKApp3\MDKApp3\bin\Debug\img3.jpg";
 
-                                // Устанавливаем режим отображения изображения в PictureBox на Zoom
-                                pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+                           try
+                           {
+                               // Освобождаем ресурсы, связанные с предыдущим изображением (если оно было загружено)
+                               if (pictureBox1.Image != null)
+                               {
+                                   pictureBox1.Image.Dispose();
+                               }
 
-                                // Отобразить изображение в PictureBox
-                                pictureBox1.Image = new Bitmap(imagePath);
-                            }
-                            catch (Exception ex)
-                            {
-                                MessageBox.Show($"Ошибка загрузки изображения: {ex.Message}");
-                            }
-                        }
-        */
+                               // Устанавливаем режим отображения изображения в PictureBox на Zoom
+                               pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+
+                               // Отобразить изображение в PictureBox
+                               pictureBox1.Image = new Bitmap(imagePath);
+                           }
+                           catch (Exception ex)
+                           {
+                               MessageBox.Show($"Ошибка загрузки изображения: {ex.Message}");
+                           }
+                       }
+       */
     }
 }
